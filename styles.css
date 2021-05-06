@@ -73,6 +73,7 @@ p {
   right: 30%;
   width: 50%;
   transform: rotate(25deg);
+  max-width: 325px;
 }
 
 /* Features */
@@ -266,6 +267,10 @@ p {
 @media (max-width: 576px) {
   .navbar-brand {
     font-size: 1.5rem;
+  }
+
+  .big-heading {
+    font-size: 1.8rem;
   }
 
   .download-button, .cta-download-button {
